@@ -43,3 +43,145 @@ INFO 2024-02-06 19:32:14,187 Была вызвана функция random_num
 INFO 2024-02-06 19:32:14,188 "GET /random/random_num/ HTTP/1.1" 200 52
 INFO 2024-02-06 19:32:14,821 Была вызвана функция random_num
 INFO 2024-02-06 19:32:14,822 "GET /random/random_num/ HTTP/1.1" 200 53
+INFO 2024-02-11 16:30:53,223 Watching for file changes with StatReloader
+INFO 2024-02-11 16:31:15,803 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 16:31:16,675 Watching for file changes with StatReloader
+INFO 2024-02-11 16:31:40,222 Watching for file changes with StatReloader
+INFO 2024-02-11 16:31:41,755 "GET / HTTP/1.1" 200 12
+INFO 2024-02-11 16:31:45,898 "GET / HTTP/1.1" 200 12
+INFO 2024-02-11 16:31:47,084 Была вызвана функция random_num
+INFO 2024-02-11 16:31:47,085 "GET /random/random_num/ HTTP/1.1" 200 52
+INFO 2024-02-11 16:31:53,979 "GET /random/coin HTTP/1.1" 301 0
+INFO 2024-02-11 16:31:54,002 Была вызвана функция coin
+INFO 2024-02-11 16:31:54,003 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:32:45,598 Была вызвана функция coin
+INFO 2024-02-11 16:32:45,599 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:09,807 Была вызвана функция coin
+INFO 2024-02-11 16:34:09,808 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:10,720 Была вызвана функция coin
+INFO 2024-02-11 16:34:10,720 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:11,544 Была вызвана функция coin
+INFO 2024-02-11 16:34:11,545 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:12,392 Была вызвана функция coin
+INFO 2024-02-11 16:34:12,393 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:13,126 Была вызвана функция coin
+INFO 2024-02-11 16:34:13,127 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:34:15,039 Была вызвана функция coin
+INFO 2024-02-11 16:34:15,039 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:42:55,731 Watching for file changes with StatReloader
+INFO 2024-02-11 16:43:01,004 Была вызвана функция coin
+INFO 2024-02-11 16:43:01,005 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:43:02,088 Была вызвана функция coin
+INFO 2024-02-11 16:43:02,088 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:43:04,324 Была вызвана функция coin
+INFO 2024-02-11 16:43:04,324 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:43:06,053 Была вызвана функция coin
+INFO 2024-02-11 16:43:06,053 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:45:00,932 Watching for file changes with StatReloader
+INFO 2024-02-11 16:45:24,022 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 16:45:25,282 Watching for file changes with StatReloader
+INFO 2024-02-11 16:45:34,867 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 16:45:35,519 Watching for file changes with StatReloader
+INFO 2024-02-11 16:45:46,938 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 16:45:47,491 Watching for file changes with StatReloader
+INFO 2024-02-11 16:45:52,135 Была вызвана функция coin
+INFO 2024-02-11 16:45:52,136 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:45:53,493 Была вызвана функция coin
+INFO 2024-02-11 16:45:53,494 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:46:41,637 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py changed, reloading.
+INFO 2024-02-11 16:46:55,027 Watching for file changes with StatReloader
+INFO 2024-02-11 16:48:02,687 Watching for file changes with StatReloader
+INFO 2024-02-11 16:51:41,356 Watching for file changes with StatReloader
+INFO 2024-02-11 16:51:45,275 Была вызвана функция coin
+INFO 2024-02-11 16:51:45,276 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:51:45,949 Была вызвана функция coin
+INFO 2024-02-11 16:51:45,950 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:51:46,745 Была вызвана функция coin
+INFO 2024-02-11 16:51:46,746 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 16:51:47,545 Была вызвана функция coin
+INFO 2024-02-11 16:51:47,546 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:51:48,282 Была вызвана функция coin
+INFO 2024-02-11 16:51:48,283 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:51:49,053 Была вызвана функция coin
+INFO 2024-02-11 16:51:49,054 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 16:51:50,224 Была вызвана функция coin
+INFO 2024-02-11 16:51:50,224 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 17:22:44,444 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py changed, reloading.
+INFO 2024-02-11 17:22:46,421 Watching for file changes with StatReloader
+INFO 2024-02-11 17:22:50,008 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py changed, reloading.
+INFO 2024-02-11 17:34:12,803 Watching for file changes with StatReloader
+INFO 2024-02-11 17:34:16,578 Была вызвана функция coin
+INFO 2024-02-11 17:34:16,579 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-11 17:34:25,266 Была вызвана функция coin
+INFO 2024-02-11 17:34:25,266 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-11 17:34:53,900 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-11 17:34:55,469 Watching for file changes with StatReloader
+ERROR 2024-02-11 17:35:01,138 Internal Server Error: /random/statistic/5
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 42, in statistic
+    return HttpResponse(coin.get_last_n_flip(n))
+AttributeError: 'function' object has no attribute 'get_last_n_flip'
+ERROR 2024-02-11 17:35:01,139 "GET /random/statistic/5 HTTP/1.1" 500 58084
+INFO 2024-02-11 17:36:14,898 Watching for file changes with StatReloader
+ERROR 2024-02-11 17:36:17,019 Internal Server Error: /random/statistic/5
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 42, in statistic
+    return HttpResponse(Coin.get_last_n_flip(n))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py", line 10, in get_last_n_flip
+    flips = Coin.objects.all()[-n:]
+TypeError: bad operand type for unary -: 'str'
+ERROR 2024-02-11 17:36:17,020 "GET /random/statistic/5 HTTP/1.1" 500 61390
+INFO 2024-02-11 17:36:50,310 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-11 17:36:51,130 Watching for file changes with StatReloader
+INFO 2024-02-11 17:37:51,191 Watching for file changes with StatReloader
+ERROR 2024-02-11 17:37:54,107 Internal Server Error: /random/statistic/5
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 42, in statistic
+    return HttpResponse(Coin.get_last_n_flip(n))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py", line 10, in get_last_n_flip
+    flips = Coin.objects.all()[-n:]
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-11 17:37:54,109 "GET /random/statistic/5 HTTP/1.1" 500 65715
+INFO 2024-02-11 17:39:39,277 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py changed, reloading.
+INFO 2024-02-11 17:39:40,097 Watching for file changes with StatReloader
+INFO 2024-02-11 17:39:42,308 "GET /random/statistic/5 HTTP/1.1" 200 18
+INFO 2024-02-11 17:39:45,700 "GET /random/statistic/5 HTTP/1.1" 200 18
+INFO 2024-02-11 17:40:40,816 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 17:40:42,377 Watching for file changes with StatReloader
+INFO 2024-02-11 17:40:43,408 "GET /random/statistic/5 HTTP/1.1" 200 69
+INFO 2024-02-11 17:42:16,159 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 17:42:17,707 Watching for file changes with StatReloader
+INFO 2024-02-11 17:42:18,725 "GET /random/statistic/5 HTTP/1.1" 200 69
+INFO 2024-02-11 17:42:30,601 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-11 17:42:31,166 Watching for file changes with StatReloader
+INFO 2024-02-11 17:42:33,233 "GET /random/statistic/5 HTTP/1.1" 200 33
+INFO 2024-02-11 17:43:00,997 "GET /random/statistic/5 HTTP/1.1" 200 33
+WARNING 2024-02-11 17:43:01,352 Not Found: /favicon.ico
+WARNING 2024-02-11 17:43:01,352 "GET /favicon.ico HTTP/1.1" 404 2387
+INFO 2024-02-11 17:44:41,591 "GET /random/statistic/5 HTTP/1.1" 200 33
+INFO 2024-02-11 17:44:42,512 "GET /random/statistic/5 HTTP/1.1" 200 33
+INFO 2024-02-11 17:44:45,220 "GET /random/statistic/3 HTTP/1.1" 200 33
+INFO 2024-02-11 17:44:48,196 "GET /random/statistic/1 HTTP/1.1" 200 34
+INFO 2024-02-11 17:44:51,458 "GET /random/statistic/5 HTTP/1.1" 200 33
+INFO 2024-02-11 17:47:52,778 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/models.py changed, reloading.
+INFO 2024-02-11 17:47:54,230 Watching for file changes with StatReloader
+INFO 2024-02-11 17:47:57,117 "GET /random/statistic/5 HTTP/1.1" 200 32
+INFO 2024-02-11 17:47:57,951 "GET /random/statistic/5 HTTP/1.1" 200 32
+INFO 2024-02-11 17:48:00,788 "GET /random/statistic/3 HTTP/1.1" 200 32
+INFO 2024-02-11 17:48:02,936 "GET /random/statistic/30 HTTP/1.1" 200 34
+INFO 2024-02-11 17:48:10,618 "GET /random/statistic/26 HTTP/1.1" 200 34
+INFO 2024-02-11 17:48:14,075 "GET /random/statistic/10 HTTP/1.1" 200 32

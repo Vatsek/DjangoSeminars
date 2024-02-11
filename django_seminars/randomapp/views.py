@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import random
 import logging
+from .models import Coin
 
 
 MIN_NUM = 0
@@ -21,7 +22,11 @@ def my_logger(func):
 @my_logger
 def coin(request):
     side = ['орёл', 'решка']
-    return HttpResponse(f'{random.choice(side)}')
+    result = random.choice(side)
+    coin_new = Coin(side=result)
+    coin_new.save()
+    return HttpResponse(f'{result}')
+
 
 @my_logger
 def dice(request):
@@ -31,3 +36,7 @@ def dice(request):
 @my_logger
 def random_num(request):
     return HttpResponse(f'Случайное число от {MIN_NUM} до {MAX_NUM} --> {random.randint(MIN_NUM, MAX_NUM)}')
+
+
+def statistic(request, n):
+    return JsonResponse(Coin.get_last_n_flip(n), json_dumps_params={'ensure_ascii': False})
