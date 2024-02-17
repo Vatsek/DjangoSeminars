@@ -185,3 +185,1148 @@ INFO 2024-02-11 17:48:00,788 "GET /random/statistic/3 HTTP/1.1" 200 32
 INFO 2024-02-11 17:48:02,936 "GET /random/statistic/30 HTTP/1.1" 200 34
 INFO 2024-02-11 17:48:10,618 "GET /random/statistic/26 HTTP/1.1" 200 34
 INFO 2024-02-11 17:48:14,075 "GET /random/statistic/10 HTTP/1.1" 200 32
+INFO 2024-02-16 21:02:01,225 Watching for file changes with StatReloader
+WARNING 2024-02-16 21:02:06,962 Not Found: /les3/post/50/
+WARNING 2024-02-16 21:02:06,964 "GET /les3/post/50/ HTTP/1.1" 404 2393
+WARNING 2024-02-16 21:02:08,368 Not Found: /les3/author/5/
+WARNING 2024-02-16 21:02:08,368 "GET /les3/author/5/ HTTP/1.1" 404 2396
+WARNING 2024-02-16 21:02:08,530 Not Found: /l
+WARNING 2024-02-16 21:02:08,531 "GET /l HTTP/1.1" 404 2357
+INFO 2024-02-16 21:02:11,038 "GET / HTTP/1.1" 200 12
+INFO 2024-02-16 21:02:15,538 "GET / HTTP/1.1" 200 12
+WARNING 2024-02-16 21:02:17,053 Not Found: /coin
+WARNING 2024-02-16 21:02:17,053 "GET /coin HTTP/1.1" 404 2366
+INFO 2024-02-16 21:02:27,615 "GET / HTTP/1.1" 200 12
+INFO 2024-02-16 21:02:28,602 Была вызвана функция coin
+INFO 2024-02-16 21:02:28,603 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-16 21:09:39,617 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 21:09:40,758 Watching for file changes with StatReloader
+INFO 2024-02-16 21:15:22,380 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:15:23,740 Watching for file changes with StatReloader
+INFO 2024-02-16 21:16:45,999 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:16:46,869 Watching for file changes with StatReloader
+INFO 2024-02-16 21:18:11,611 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:18:12,707 Watching for file changes with StatReloader
+INFO 2024-02-16 21:19:19,942 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:19:20,965 Watching for file changes with StatReloader
+INFO 2024-02-16 21:20:12,088 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:20:13,137 Watching for file changes with StatReloader
+INFO 2024-02-16 21:21:35,795 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:21:37,245 Watching for file changes with StatReloader
+INFO 2024-02-16 21:22:06,101 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:22:07,037 Watching for file changes with StatReloader
+INFO 2024-02-16 21:22:16,484 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:22:17,395 Watching for file changes with StatReloader
+INFO 2024-02-16 21:22:28,914 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:22:29,522 Watching for file changes with StatReloader
+INFO 2024-02-16 21:23:09,354 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:23:10,440 Watching for file changes with StatReloader
+INFO 2024-02-16 21:23:48,399 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:23:49,619 Watching for file changes with StatReloader
+INFO 2024-02-16 21:24:53,633 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:24:54,439 Watching for file changes with StatReloader
+INFO 2024-02-16 21:25:43,674 Была вызвана функция coin
+INFO 2024-02-16 21:25:43,674 "GET /random/coin/5 HTTP/1.1" 200 245
+INFO 2024-02-16 21:25:59,378 Была вызвана функция coin
+INFO 2024-02-16 21:25:59,381 "GET /random/coin/ HTTP/1.1" 200 151
+INFO 2024-02-16 21:26:02,681 Была вызвана функция coin
+INFO 2024-02-16 21:26:02,682 "GET /random/coin/5 HTTP/1.1" 200 243
+INFO 2024-02-16 21:27:46,496 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:27:47,506 Watching for file changes with StatReloader
+INFO 2024-02-16 21:27:48,364 Была вызвана функция coin
+INFO 2024-02-16 21:27:48,365 "GET /random/coin/5 HTTP/1.1" 200 241
+INFO 2024-02-16 21:27:50,293 Была вызвана функция coin
+INFO 2024-02-16 21:27:50,294 "GET /random/coin/ HTTP/1.1" 200 6
+INFO 2024-02-16 21:28:12,227 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:28:13,032 Watching for file changes with StatReloader
+INFO 2024-02-16 21:28:13,263 Была вызвана функция coin
+INFO 2024-02-16 21:28:13,264 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-16 21:28:14,079 Была вызвана функция coin
+INFO 2024-02-16 21:28:14,079 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-16 21:28:14,682 Была вызвана функция coin
+INFO 2024-02-16 21:28:14,682 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-16 21:28:15,198 Была вызвана функция coin
+INFO 2024-02-16 21:28:15,198 "GET /random/coin/ HTTP/1.1" 200 10
+INFO 2024-02-16 21:28:18,526 Была вызвана функция coin
+INFO 2024-02-16 21:28:18,527 "GET /random/coin/10 HTTP/1.1" 200 357
+INFO 2024-02-16 21:29:27,686 Была вызвана функция coin
+INFO 2024-02-16 21:29:27,688 "GET /random/coin/0 HTTP/1.1" 200 129
+INFO 2024-02-16 21:31:35,697 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:31:37,706 Watching for file changes with StatReloader
+INFO 2024-02-16 21:32:10,787 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:32:14,474 Watching for file changes with StatReloader
+INFO 2024-02-16 21:33:05,230 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 21:33:06,358 Watching for file changes with StatReloader
+INFO 2024-02-16 21:35:32,689 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:35:33,975 Watching for file changes with StatReloader
+INFO 2024-02-16 21:36:07,604 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:36:08,479 Watching for file changes with StatReloader
+INFO 2024-02-16 21:40:07,734 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:40:09,066 Watching for file changes with StatReloader
+WARNING 2024-02-16 21:40:11,260 Not Found: /random/coin_pd
+WARNING 2024-02-16 21:40:11,261 "GET /random/coin_pd HTTP/1.1" 404 3388
+ERROR 2024-02-16 21:40:33,212 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 52, in coin_pd
+    df = pd.DataFrame(result).to_html()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/pandas/core/frame.py", line 875, in __init__
+    raise ValueError("DataFrame constructor not properly called!")
+ValueError: DataFrame constructor not properly called!
+ERROR 2024-02-16 21:40:33,216 "GET /random/coin_pd/3 HTTP/1.1" 500 68501
+ERROR 2024-02-16 21:40:46,919 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 52, in coin_pd
+    df = pd.DataFrame(result).to_html()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/pandas/core/frame.py", line 875, in __init__
+    raise ValueError("DataFrame constructor not properly called!")
+ValueError: DataFrame constructor not properly called!
+ERROR 2024-02-16 21:40:46,921 "GET /random/coin_pd/3 HTTP/1.1" 500 68499
+INFO 2024-02-16 21:40:47,708 Была вызвана функция coin
+INFO 2024-02-16 21:40:47,714 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-16 21:40:48,339 Была вызвана функция coin
+INFO 2024-02-16 21:40:48,340 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-16 21:42:09,287 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:42:10,323 Watching for file changes with StatReloader
+INFO 2024-02-16 21:42:36,024 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:42:36,803 Watching for file changes with StatReloader
+INFO 2024-02-16 21:42:38,176 Была вызвана функция coin_pd
+INFO 2024-02-16 21:42:38,177 "GET /random/coin_pd/3 HTTP/1.1" 200 839
+INFO 2024-02-16 21:45:20,833 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:45:21,957 Watching for file changes with StatReloader
+ERROR 2024-02-16 21:45:23,185 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 51, in coin_pd
+    result_lst.append({'Попытка': i + 1, 'результат': {random.choice(side)}})
+NameError: name 'result_lst' is not defined
+ERROR 2024-02-16 21:45:23,186 "GET /random/coin_pd/3 HTTP/1.1" 500 63077
+INFO 2024-02-16 21:45:32,165 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:45:32,707 Watching for file changes with StatReloader
+INFO 2024-02-16 21:45:35,387 Была вызвана функция coin_pd
+INFO 2024-02-16 21:45:35,388 "GET /random/coin_pd/3 HTTP/1.1" 200 837
+INFO 2024-02-16 21:47:20,648 Watching for file changes with StatReloader
+INFO 2024-02-16 21:47:23,142 Была вызвана функция coin_pd
+INFO 2024-02-16 21:47:23,142 "GET /random/coin_pd/3 HTTP/1.1" 200 837
+INFO 2024-02-16 21:49:17,208 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:49:18,139 Watching for file changes with StatReloader
+INFO 2024-02-16 21:49:22,328 Была вызвана функция coin_pd
+INFO 2024-02-16 21:49:22,330 "GET /random/coin_pd/3 HTTP/1.1" 200 833
+INFO 2024-02-16 21:51:50,729 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:51:51,796 Watching for file changes with StatReloader
+INFO 2024-02-16 21:51:53,328 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:51:53,382 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:51:53,383 "GET /random/coin_pd/3 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:52:04,655 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:52:05,589 Watching for file changes with StatReloader
+INFO 2024-02-16 21:52:06,434 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:52:06,474 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:52:06,475 "GET /random/coin_pd/3 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:52:07,577 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:52:07,610 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:52:07,611 "GET /random/coin_pd/3 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:52:43,956 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:52:44,013 Internal Server Error: /random/coin_pd/3
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:52:44,015 "GET /random/coin_pd/3 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:52:46,047 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:52:46,076 Internal Server Error: /random/coin_pd/2
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:52:46,077 "GET /random/coin_pd/2 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:53:41,696 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:53:42,525 Watching for file changes with StatReloader
+INFO 2024-02-16 21:53:45,329 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:53:45,469 Internal Server Error: /random/coin_pd/2
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:53:45,470 "GET /random/coin_pd/2 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:54:29,730 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:54:30,698 Watching for file changes with StatReloader
+INFO 2024-02-16 21:54:32,137 Была вызвана функция coin_pd
+ERROR 2024-02-16 21:54:32,188 Internal Server Error: /random/coin_pd/2
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view randomapp.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 21:54:32,189 "GET /random/coin_pd/2 HTTP/1.1" 500 59788
+INFO 2024-02-16 21:54:55,518 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:54:56,415 Watching for file changes with StatReloader
+INFO 2024-02-16 21:54:57,561 Была вызвана функция coin_pd
+INFO 2024-02-16 21:54:57,562 "GET /random/coin_pd/2 HTTP/1.1" 200 690
+INFO 2024-02-16 21:55:20,364 Была вызвана функция coin_pd
+INFO 2024-02-16 21:55:20,376 "GET /random/coin_pd/2 HTTP/1.1" 200 690
+WARNING 2024-02-16 21:55:20,587 Not Found: /favicon.ico
+WARNING 2024-02-16 21:55:20,588 "GET /favicon.ico HTTP/1.1" 404 2387
+INFO 2024-02-16 21:57:39,857 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:57:41,253 Watching for file changes with StatReloader
+INFO 2024-02-16 21:58:48,850 Была вызвана функция coin_pd
+INFO 2024-02-16 21:58:48,852 "GET /random/coin_pd/2 HTTP/1.1" 200 480
+INFO 2024-02-16 21:59:20,267 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:59:21,395 Watching for file changes with StatReloader
+INFO 2024-02-16 21:59:30,716 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:30,717 "GET /random/coin_pd/2 HTTP/1.1" 200 496
+INFO 2024-02-16 21:59:32,115 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:32,116 "GET /random/coin_pd/2 HTTP/1.1" 200 498
+INFO 2024-02-16 21:59:32,832 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:32,833 "GET /random/coin_pd/2 HTTP/1.1" 200 498
+INFO 2024-02-16 21:59:33,719 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:33,720 "GET /random/coin_pd/2 HTTP/1.1" 200 496
+INFO 2024-02-16 21:59:34,487 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:34,488 "GET /random/coin_pd/2 HTTP/1.1" 200 496
+INFO 2024-02-16 21:59:35,100 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:35,101 "GET /random/coin_pd/2 HTTP/1.1" 200 498
+INFO 2024-02-16 21:59:39,444 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:39,446 "GET /random/coin_pd/10 HTTP/1.1" 200 1123
+INFO 2024-02-16 21:59:53,485 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 21:59:54,409 Watching for file changes with StatReloader
+INFO 2024-02-16 21:59:56,740 Была вызвана функция coin_pd
+INFO 2024-02-16 21:59:56,741 "GET /random/coin_pd/10 HTTP/1.1" 200 1119
+WARNING 2024-02-16 21:59:58,788 Not Found: /random/coin_pd/
+WARNING 2024-02-16 21:59:58,790 "GET /random/coin_pd/ HTTP/1.1" 404 3391
+INFO 2024-02-16 22:01:00,402 Была вызвана функция coin_pd
+INFO 2024-02-16 22:01:00,403 "GET /random/coin_pd/0 HTTP/1.1" 200 276
+WARNING 2024-02-16 22:01:04,084 Not Found: /random/coin_pd/
+WARNING 2024-02-16 22:01:04,084 "GET /random/coin_pd/ HTTP/1.1" 404 3391
+INFO 2024-02-16 22:01:22,762 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:01:24,564 Watching for file changes with StatReloader
+WARNING 2024-02-16 22:01:25,989 Not Found: /random/coin_pd/
+WARNING 2024-02-16 22:01:25,990 "GET /random/coin_pd/ HTTP/1.1" 404 3391
+INFO 2024-02-16 22:01:29,602 Была вызвана функция coin_pd
+INFO 2024-02-16 22:01:29,604 "GET /random/coin_pd/5 HTTP/1.1" 200 731
+INFO 2024-02-16 22:03:10,782 "GET /random/coin HTTP/1.1" 301 0
+INFO 2024-02-16 22:03:10,800 Была вызвана функция coin
+INFO 2024-02-16 22:03:10,801 "GET /random/coin/ HTTP/1.1" 200 8
+INFO 2024-02-16 22:04:51,168 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:04:51,998 Watching for file changes with StatReloader
+INFO 2024-02-16 22:04:53,743 "GET /random/dice HTTP/1.1" 301 0
+INFO 2024-02-16 22:04:53,747 Была вызвана функция dice
+INFO 2024-02-16 22:04:53,749 "GET /random/dice/ HTTP/1.1" 200 44
+INFO 2024-02-16 22:08:37,555 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:08:38,587 Watching for file changes with StatReloader
+INFO 2024-02-16 22:08:40,067 Была вызвана функция dice
+INFO 2024-02-16 22:08:40,076 "GET /random/dice/ HTTP/1.1" 200 44
+WARNING 2024-02-16 22:08:43,032 Not Found: /random/dice/4
+WARNING 2024-02-16 22:08:43,033 "GET /random/dice/4 HTTP/1.1" 404 3385
+INFO 2024-02-16 22:09:10,652 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:09:11,809 Watching for file changes with StatReloader
+INFO 2024-02-16 22:10:08,161 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:10:09,274 Watching for file changes with StatReloader
+ERROR 2024-02-16 22:10:20,160 Internal Server Error: /random/dice/4
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 62, in dice
+    result.append({'Попытка': i + 1, 'результат': result})
+AttributeError: 'int' object has no attribute 'append'
+ERROR 2024-02-16 22:10:20,161 "GET /random/dice/4 HTTP/1.1" 500 63754
+WARNING 2024-02-16 22:10:28,888 Not Found: /random/dice/
+WARNING 2024-02-16 22:10:28,889 "GET /random/dice/ HTTP/1.1" 404 3395
+INFO 2024-02-16 22:10:40,244 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:10:41,569 Watching for file changes with StatReloader
+WARNING 2024-02-16 22:10:42,753 Not Found: /random/dice/
+WARNING 2024-02-16 22:10:42,753 "GET /random/dice/ HTTP/1.1" 404 3395
+INFO 2024-02-16 22:11:17,608 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:11:18,854 Watching for file changes with StatReloader
+WARNING 2024-02-16 22:11:21,717 Not Found: /random/dice/
+WARNING 2024-02-16 22:11:21,718 "GET /random/dice/ HTTP/1.1" 404 3395
+INFO 2024-02-16 22:11:31,443 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:11:32,816 Watching for file changes with StatReloader
+WARNING 2024-02-16 22:11:36,066 Not Found: /random/dice/
+WARNING 2024-02-16 22:11:36,068 "GET /random/dice/ HTTP/1.1" 404 3395
+INFO 2024-02-16 22:12:05,805 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:12:06,528 Watching for file changes with StatReloader
+INFO 2024-02-16 22:12:07,721 Была вызвана функция dice
+INFO 2024-02-16 22:12:07,722 "GET /random/dice/ HTTP/1.1" 200 44
+INFO 2024-02-16 22:12:13,851 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:12:14,661 Watching for file changes with StatReloader
+INFO 2024-02-16 22:12:38,088 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:12:39,796 Watching for file changes with StatReloader
+INFO 2024-02-16 22:13:31,941 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:13:33,299 Watching for file changes with StatReloader
+ERROR 2024-02-16 22:13:37,680 Internal Server Error: /random/dice_pd/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 69, in dice_pd
+    for i in range(n):
+TypeError: 'NoneType' object cannot be interpreted as an integer
+ERROR 2024-02-16 22:13:37,682 "GET /random/dice_pd/ HTTP/1.1" 500 63361
+WARNING 2024-02-16 22:13:41,163 Not Found: /random/dice_pd/10
+WARNING 2024-02-16 22:13:41,164 "GET /random/dice_pd/10 HTTP/1.1" 404 3575
+WARNING 2024-02-16 22:14:03,502 Not Found: /random/dice_pd/10
+WARNING 2024-02-16 22:14:03,503 "GET /random/dice_pd/10 HTTP/1.1" 404 3575
+INFO 2024-02-16 22:14:03,547 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:14:04,322 Watching for file changes with StatReloader
+ERROR 2024-02-16 22:14:05,674 Internal Server Error: /random/dice_pd/10
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 71, in dice_pd
+    result.append({'Попытка': i + 1, 'результат': result})
+AttributeError: 'int' object has no attribute 'append'
+INFO 2024-02-16 22:14:05,678 - Broken pipe from ('127.0.0.1', 55772)
+ERROR 2024-02-16 22:14:06,848 Internal Server Error: /random/dice_pd/10
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 71, in dice_pd
+    result.append({'Попытка': i + 1, 'результат': result})
+AttributeError: 'int' object has no attribute 'append'
+ERROR 2024-02-16 22:14:06,922 "GET /random/dice_pd/10 HTTP/1.1" 500 63692
+ERROR 2024-02-16 22:14:07,497 Internal Server Error: /random/dice_pd/10
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 17, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 71, in dice_pd
+    result.append({'Попытка': i + 1, 'результат': result})
+AttributeError: 'int' object has no attribute 'append'
+ERROR 2024-02-16 22:14:07,498 "GET /random/dice_pd/10 HTTP/1.1" 500 63692
+INFO 2024-02-16 22:14:37,796 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-16 22:14:38,840 Watching for file changes with StatReloader
+INFO 2024-02-16 22:14:40,139 Была вызвана функция dice_pd
+INFO 2024-02-16 22:14:40,140 "GET /random/dice_pd/10 HTTP/1.1" 200 1041
+INFO 2024-02-16 22:29:04,000 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-16 22:29:05,396 Watching for file changes with StatReloader
+WARNING 2024-02-16 22:54:01,587 Not Found: /random/posts/
+WARNING 2024-02-16 22:54:01,589 "GET /random/posts/ HTTP/1.1" 404 3576
+WARNING 2024-02-16 22:54:04,065 Not Found: /random/posts/1
+WARNING 2024-02-16 22:54:04,066 "GET /random/posts/1 HTTP/1.1" 404 3579
+WARNING 2024-02-16 22:54:07,421 Not Found: /random/posts/2
+WARNING 2024-02-16 22:54:07,422 "GET /random/posts/2 HTTP/1.1" 404 3579
+WARNING 2024-02-16 22:54:14,474 Not Found: /posts/2
+WARNING 2024-02-16 22:54:14,476 "GET /posts/2 HTTP/1.1" 404 2375
+WARNING 2024-02-16 22:54:17,380 Not Found: /posts/3
+WARNING 2024-02-16 22:54:17,383 "GET /posts/3 HTTP/1.1" 404 2375
+INFO 2024-02-16 22:55:27,347 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/django_seminars/urls.py changed, reloading.
+INFO 2024-02-16 22:55:28,764 Watching for file changes with StatReloader
+INFO 2024-02-16 22:55:57,675 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 22:55:58,763 Watching for file changes with StatReloader
+INFO 2024-02-16 22:57:53,176 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 22:57:54,346 Watching for file changes with StatReloader
+INFO 2024-02-16 23:01:02,248 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:01:03,042 Watching for file changes with StatReloader
+INFO 2024-02-16 23:01:15,347 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:01:15,945 Watching for file changes with StatReloader
+WARNING 2024-02-16 23:01:19,345 Not Found: /posts/post/3
+WARNING 2024-02-16 23:01:19,346 "GET /posts/post/3 HTTP/1.1" 404 2586
+WARNING 2024-02-16 23:01:24,194 Not Found: /posts//3
+WARNING 2024-02-16 23:01:24,195 "GET /posts//3 HTTP/1.1" 404 2574
+WARNING 2024-02-16 23:01:27,944 Not Found: /posts/3
+WARNING 2024-02-16 23:01:27,944 "GET /posts/3 HTTP/1.1" 404 2571
+WARNING 2024-02-16 23:01:52,923 Not Found: /posts/post/3
+WARNING 2024-02-16 23:01:52,923 "GET /posts/post/3 HTTP/1.1" 404 2586
+INFO 2024-02-16 23:05:14,139 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:05:15,145 Watching for file changes with StatReloader
+INFO 2024-02-16 23:05:17,913 "GET /posts/post/3 HTTP/1.1" 301 0
+ERROR 2024-02-16 23:05:18,035 Internal Server Error: /posts/post/3/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_posts() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:05:18,035 "GET /posts/post/3/ HTTP/1.1" 500 56111
+INFO 2024-02-16 23:06:44,017 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:06:45,040 Watching for file changes with StatReloader
+INFO 2024-02-16 23:07:38,189 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:07:39,073 Watching for file changes with StatReloader
+INFO 2024-02-16 23:08:43,745 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:08:45,439 Watching for file changes with StatReloader
+INFO 2024-02-16 23:08:51,078 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:08:51,796 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:08:55,034 Internal Server Error: /posts/post/3/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:08:55,035 "GET /posts/post/3/ HTTP/1.1" 500 60607
+INFO 2024-02-16 23:11:08,437 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:11:09,293 Watching for file changes with StatReloader
+WARNING 2024-02-16 23:11:12,014 Not Found: /posts/post/3/
+WARNING 2024-02-16 23:11:12,014 "GET /posts/post/3/ HTTP/1.1" 404 2586
+INFO 2024-02-16 23:11:34,025 "GET /posts/3 HTTP/1.1" 301 0
+INFO 2024-02-16 23:11:34,047 "GET /posts/3/ HTTP/1.1" 200 313
+INFO 2024-02-16 23:11:39,321 "GET /posts/2/ HTTP/1.1" 200 189
+INFO 2024-02-16 23:11:42,461 "GET /posts/1 HTTP/1.1" 301 0
+INFO 2024-02-16 23:11:42,469 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:12:29,611 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:12:30,376 Watching for file changes with StatReloader
+INFO 2024-02-16 23:12:33,384 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:12:34,232 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:12:34,885 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:13:21,586 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:13:22,610 Watching for file changes with StatReloader
+INFO 2024-02-16 23:13:25,948 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:13:27,337 Watching for file changes with StatReloader
+INFO 2024-02-16 23:14:49,791 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:14:50,787 Watching for file changes with StatReloader
+INFO 2024-02-16 23:16:19,523 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:16:20,370 Watching for file changes with StatReloader
+INFO 2024-02-16 23:16:24,001 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:16:28,878 "GET /posts/post/1 HTTP/1.1" 301 0
+ERROR 2024-02-16 23:16:29,010 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:16:29,011 "GET /posts/post/1/ HTTP/1.1" 500 55988
+INFO 2024-02-16 23:17:41,614 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:17:42,365 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:17:45,283 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:17:45,284 "GET /posts/post/1/ HTTP/1.1" 500 56125
+ERROR 2024-02-16 23:17:46,348 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:17:46,349 "GET /posts/post/1/ HTTP/1.1" 500 56125
+ERROR 2024-02-16 23:17:47,033 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:17:47,034 "GET /posts/post/1/ HTTP/1.1" 500 56125
+ERROR 2024-02-16 23:17:48,249 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got an unexpected keyword argument 'post_id'
+ERROR 2024-02-16 23:17:48,250 "GET /posts/post/1/ HTTP/1.1" 500 56125
+INFO 2024-02-16 23:17:56,885 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:17:57,999 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:17:59,367 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:17:59,368 "GET /posts/post/1/ HTTP/1.1" 500 60607
+INFO 2024-02-16 23:20:37,262 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:20:38,323 Watching for file changes with StatReloader
+INFO 2024-02-16 23:23:20,448 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:23:21,572 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:23:24,083 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:23:24,084 "GET /posts/post/1/ HTTP/1.1" 500 60601
+ERROR 2024-02-16 23:23:24,881 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:23:24,883 "GET /posts/post/1/ HTTP/1.1" 500 60601
+INFO 2024-02-16 23:23:54,760 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:23:55,531 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:23:58,373 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() got multiple values for argument 'n'
+ERROR 2024-02-16 23:23:58,373 "GET /posts/post/1/ HTTP/1.1" 500 56087
+INFO 2024-02-16 23:24:22,403 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:24:23,141 Watching for file changes with StatReloader
+INFO 2024-02-16 23:26:25,549 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:26:26,887 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:26:34,313 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:26:34,314 "GET /posts/post/1/ HTTP/1.1" 500 60607
+INFO 2024-02-16 23:27:36,915 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-16 23:27:38,218 Watching for file changes with StatReloader
+ERROR 2024-02-16 23:27:44,219 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.author_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-16 23:27:44,219 "GET /posts/post/1/ HTTP/1.1" 500 60607
+INFO 2024-02-16 23:28:26,927 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-16 23:28:27,997 Watching for file changes with StatReloader
+INFO 2024-02-16 23:28:30,435 "GET /posts/post/1/ HTTP/1.1" 200 0
+INFO 2024-02-16 23:28:42,621 "GET /posts/post/2 HTTP/1.1" 301 0
+INFO 2024-02-16 23:28:42,626 "GET /posts/post/2/ HTTP/1.1" 200 0
+INFO 2024-02-16 23:28:45,022 "GET /posts/post/4 HTTP/1.1" 301 0
+INFO 2024-02-16 23:28:45,030 "GET /posts/post/4/ HTTP/1.1" 200 0
+INFO 2024-02-16 23:28:53,508 "GET /posts/4 HTTP/1.1" 301 0
+INFO 2024-02-16 23:28:53,529 "GET /posts/4/ HTTP/1.1" 200 189
+INFO 2024-02-16 23:28:56,959 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:30:20,488 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:30:21,784 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:31:01,029 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:31:02,341 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-16 23:31:03,274 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-17 08:04:31,193 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-17 08:04:32,441 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-17 08:04:33,129 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-17 08:05:07,651 Watching for file changes with StatReloader
+INFO 2024-02-17 08:05:13,576 "GET /posts/1/ HTTP/1.1" 200 553
+INFO 2024-02-17 08:05:14,115 "GET /posts/1/ HTTP/1.1" 200 553
+WARNING 2024-02-17 08:05:19,799 Not Found: /post
+WARNING 2024-02-17 08:05:19,800 "GET /post HTTP/1.1" 404 2757
+INFO 2024-02-17 08:05:24,649 "GET /posts/1/ HTTP/1.1" 200 553
+WARNING 2024-02-17 08:05:27,159 Not Found: /posts/
+WARNING 2024-02-17 08:05:27,159 "GET /posts/ HTTP/1.1" 404 2763
+INFO 2024-02-17 08:05:59,090 "GET /posts/post/1/ HTTP/1.1" 200 0
+INFO 2024-02-17 08:06:03,729 "GET /posts/post/2/ HTTP/1.1" 200 0
+INFO 2024-02-17 08:06:06,445 "GET /posts/post/3/ HTTP/1.1" 200 0
+INFO 2024-02-17 08:07:51,308 "GET /posts/post/3/ HTTP/1.1" 200 0
+INFO 2024-02-17 08:07:53,178 "GET /posts/post/3/ HTTP/1.1" 200 0
+WARNING 2024-02-17 08:07:55,558 Not Found: /posts/posts
+WARNING 2024-02-17 08:07:55,559 "GET /posts/posts HTTP/1.1" 404 2778
+WARNING 2024-02-17 08:07:58,372 Not Found: /posts/posts/3
+WARNING 2024-02-17 08:07:58,373 "GET /posts/posts/3 HTTP/1.1" 404 2784
+INFO 2024-02-17 08:08:04,394 "GET /posts/3/ HTTP/1.1" 200 358
+INFO 2024-02-17 08:08:07,864 "GET /posts/2/ HTTP/1.1" 200 189
+INFO 2024-02-17 08:08:09,793 "GET /posts/1/ HTTP/1.1" 200 680
+INFO 2024-02-17 08:40:44,619 Watching for file changes with StatReloader
+ERROR 2024-02-17 08:40:53,346 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.object.filter(post_id=post_id)
+AttributeError: type object 'Post' has no attribute 'object'
+ERROR 2024-02-17 08:40:53,347 "GET /posts/post/1/ HTTP/1.1" 500 58910
+INFO 2024-02-17 08:41:25,970 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 08:41:26,635 Watching for file changes with StatReloader
+ERROR 2024-02-17 08:41:29,599 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.objects.filter(post_id=post_id)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post_id' into field. Choices are: author, author_id, category, comment, content, id, is_public, pub_date, title, views_count
+ERROR 2024-02-17 08:41:29,605 "GET /posts/post/1/ HTTP/1.1" 500 104013
+ERROR 2024-02-17 08:42:58,531 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.objects.filter(post_id=post_id)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post_id' into field. Choices are: author, author_id, category, comment, content, id, is_public, pub_date, title, views_count
+ERROR 2024-02-17 08:42:58,533 "GET /posts/post/1/ HTTP/1.1" 500 104013
+ERROR 2024-02-17 08:42:59,602 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.objects.filter(post_id=post_id)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post_id' into field. Choices are: author, author_id, category, comment, content, id, is_public, pub_date, title, views_count
+ERROR 2024-02-17 08:42:59,607 "GET /posts/post/1/ HTTP/1.1" 500 104013
+ERROR 2024-02-17 08:43:00,619 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.objects.filter(post_id=post_id)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post_id' into field. Choices are: author, author_id, category, comment, content, id, is_public, pub_date, title, views_count
+ERROR 2024-02-17 08:43:00,625 "GET /posts/post/1/ HTTP/1.1" 500 104013
+INFO 2024-02-17 08:47:17,023 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 08:47:18,289 Watching for file changes with StatReloader
+ERROR 2024-02-17 08:47:20,413 Internal Server Error: /posts/post/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 12, in author_post
+    post = Post.objects.get(post_id=post_id)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post_id' into field. Choices are: author, author_id, category, comment, content, id, is_public, pub_date, title, views_count
+ERROR 2024-02-17 08:47:20,476 "GET /posts/post/1/ HTTP/1.1" 500 108621
+INFO 2024-02-17 08:48:03,903 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 08:48:05,000 Watching for file changes with StatReloader
+INFO 2024-02-17 08:48:07,253 "GET /posts/post/1/ HTTP/1.1" 200 2626
+INFO 2024-02-17 08:48:19,041 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 08:49:47,303 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 08:49:49,281 Watching for file changes with StatReloader
+INFO 2024-02-17 08:50:49,820 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 08:50:50,515 Watching for file changes with StatReloader
+INFO 2024-02-17 08:51:17,359 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 08:51:19,173 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 08:51:20,376 "GET /posts/post/2/ HTTP/1.1" 200 3011
+ERROR 2024-02-17 08:51:31,519 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 15, in author_post
+    post.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+ERROR 2024-02-17 08:51:31,526 "GET /posts/post/2/ HTTP/1.1" 500 180794
+INFO 2024-02-17 08:51:36,512 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 08:51:38,051 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 08:59:28,919 Watching for file changes with StatReloader
+WARNING 2024-02-17 08:59:31,613 Not Found: /posts/
+WARNING 2024-02-17 08:59:31,614 "GET /posts/ HTTP/1.1" 404 2763
+INFO 2024-02-17 08:59:35,068 "GET /posts/1/ HTTP/1.1" 200 680
+INFO 2024-02-17 09:00:56,255 "GET /posts/1/ HTTP/1.1" 200 680
+INFO 2024-02-17 09:01:58,534 "GET /posts/1/ HTTP/1.1" 200 654
+INFO 2024-02-17 09:02:05,925 "GET /posts/post/2/ HTTP/1.1" 200 3011
+INFO 2024-02-17 09:04:06,447 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-17 09:04:07,614 Watching for file changes with StatReloader
+INFO 2024-02-17 09:07:13,619 "GET /posts/1/ HTTP/1.1" 200 654
+INFO 2024-02-17 09:07:14,338 "GET /posts/1/ HTTP/1.1" 200 654
+ERROR 2024-02-17 09:07:20,693 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 15, in author_post
+    post.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+INFO 2024-02-17 09:07:20,768 - Broken pipe from ('127.0.0.1', 58223)
+ERROR 2024-02-17 09:07:25,787 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 15, in author_post
+    post.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+INFO 2024-02-17 09:07:25,804 - Broken pipe from ('127.0.0.1', 58224)
+ERROR 2024-02-17 09:07:36,293 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 15, in author_post
+    post.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+INFO 2024-02-17 09:07:36,346 - Broken pipe from ('127.0.0.1', 58225)
+ERROR 2024-02-17 09:07:36,505 Internal Server Error: /posts/1/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 8, in get_posts
+    return render(request, 'blog/posts.html', {'posts': posts})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 198, in render
+    len_values = len(values)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+INFO 2024-02-17 09:07:36,522 - Broken pipe from ('127.0.0.1', 58228)
+ERROR 2024-02-17 09:07:36,506 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 15, in author_post
+    post.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+ERROR 2024-02-17 09:07:36,591 "GET /posts/post/2/ HTTP/1.1" 500 181121
+ERROR 2024-02-17 09:08:00,677 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 17, in author_post
+    return render(request, 'blog/post.html', {'post':post, 'comments': comments})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 11: 'for'. Looking for one of: empty, endfor.
+ERROR 2024-02-17 09:08:00,690 "GET /posts/post/2/ HTTP/1.1" 500 137135
+INFO 2024-02-17 09:08:54,881 "GET /posts/post/2/ HTTP/1.1" 200 16981
+INFO 2024-02-17 09:12:14,347 "GET /posts/post/2/ HTTP/1.1" 200 19442
+INFO 2024-02-17 09:14:21,397 "GET /posts/post/2/ HTTP/1.1" 200 19220
+INFO 2024-02-17 09:14:21,681 "GET /posts/post/2/ HTTP/1.1" 200 19220
+INFO 2024-02-17 09:14:22,219 "GET /posts/post/2/ HTTP/1.1" 200 19220
+INFO 2024-02-17 09:14:33,663 "GET /posts/post/2/ HTTP/1.1" 200 19376
+INFO 2024-02-17 09:15:14,300 "GET /posts/post/2/ HTTP/1.1" 200 19532
+INFO 2024-02-17 09:17:29,950 "GET /posts/post/2/ HTTP/1.1" 200 19792
+INFO 2024-02-17 09:17:31,380 "GET /posts/post/2/ HTTP/1.1" 200 19792
+INFO 2024-02-17 09:18:15,004 "GET /posts/post/2/ HTTP/1.1" 200 19720
+INFO 2024-02-17 09:18:17,208 "GET /posts/post/2/ HTTP/1.1" 200 19720

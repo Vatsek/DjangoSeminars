@@ -3,6 +3,7 @@ from django.http import HttpResponse, JsonResponse
 import random
 import logging
 from .models import Coin
+import pandas as pd
 
 
 MIN_NUM = 0
@@ -20,17 +21,56 @@ def my_logger(func):
 
 
 @my_logger
-def coin(request):
+def coin(request, n=None):
     side = ['орёл', 'решка']
-    result = random.choice(side)
-    coin_new = Coin(side=result)
-    coin_new.save()
-    return HttpResponse(f'{result}')
+    if n == None:
+        result = random.choice(side)
+        coin_new = Coin(side=result)
+        coin_new.save()
+        return HttpResponse(f'{result}')
+    result_lst =[]
+    for i in range(n):
+        result = random.choice(side)
+        result_lst.append(result)
+        coin_new = Coin(side=result)
+        coin_new.save()
+    return render(request, 'randomapp/index.html', {'result':result_lst})
 
 
 @my_logger
-def dice(request):
-    return HttpResponse(f'На кубике выпала цифра {random.randint(1, 6)}')
+def coin_pd(request, n=None):
+    side = ['орёл', 'решка']
+    result_lst =[]
+    for i in range(n):
+        result = random.choice(side)
+        result_lst.append({'Попытка': i + 1, 'результат': random.choice(side)})
+        print(result_lst)
+        coin_new = Coin(side=result)
+        coin_new.save()
+    df = pd.DataFrame(result_lst).to_html()
+    return render(request, 'randomapp/index.html', {'result': df})
+
+
+
+@my_logger
+def dice(request, n=1):
+    return HttpResponse(f' На кубике выпала цифра {random.randint(1, 6)}')
+    result = []
+    for i in range(n):
+        result = random.randint(1, 6)
+        result.append({'Попытка': i + 1, 'результат': result})
+    df = pd.DataFrame(result).to_html()
+    return render(request, 'randomapp/index.html', {'result': df})
+
+
+@my_logger
+def dice_pd(request, n=None):
+    result = []
+    for i in range(n):
+        number = random.randint(1, 6)
+        result.append({'Попытка': i + 1, 'результат': number})
+    df = pd.DataFrame(result).to_html()
+    return render(request, 'randomapp/index.html', {'result': df})
 
 
 @my_logger
