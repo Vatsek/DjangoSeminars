@@ -9,8 +9,12 @@ class Author(models.Model):
     birth_date = models.DateField()
     full_name = models.CharField(max_length=200)
 
-    def fullname(self):
-        return f'{self.first_name} {self.last_name}'
+    def __str__(self):
+        return str(self.full_name)
+
+    def save(self, *args, **kwargs):
+        self.full_name = f'{self.first_name} {self.last_name}'
+        super().save(*args, **kwargs)
 
 
 class Post(models.Model):
@@ -30,5 +34,5 @@ class Comment(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     content = models.TextField()
-    create_date = models.DateField()
-    edit_date = models.DateField()
+    create_date = models.DateField(auto_now_add=True)
+    edit_date = models.DateField(auto_now=True)
