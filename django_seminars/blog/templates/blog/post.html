@@ -5,17 +5,23 @@
     <title>Post</title>
 </head>
 <body>
-    <h1>Статья {{ post.title }} от {{ post.pub_date }}</h1>
-    <p>{{ post.content }}</p>
-    <div>
-        {% for comment in comments %}
-        <p>Комментарий: {{ comment.content }}</p>
-        <p>Автор: {{ comment.author.first_name }} {{ comment.author.last_name }}</p>
-        <p>Дата добавления: {{ comment.create_date }}</p>
-        {% if comment.create_date < comment.edit_date %}
-            <p>Дата изменения: {{ comment.edit_date }}</p>
-        {% endif %}
-        {% endfor %}
-    </div>
+<h1>Статья {{ post.title }} от {{ post.pub_date }}</h1>
+<p>{{ post.content }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Отправить">
+</form>
+<div>
+    {% for comment in comments %}
+    <p>Комментарий: {{ comment.content }}</p>
+    <p>Автор: {{ comment.author.first_name }} {{ comment.author.last_name }}</p>
+    <p>Дата добавления: {{ comment.create_date }}</p>
+    {% if comment.create_date < comment.edit_date %}
+    <p>Дата изменения: {{ comment.edit_date }}</p>
+    {% endif %}
+    {% endfor %}
+</div>
 </body>
 </html>

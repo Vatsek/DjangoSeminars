@@ -4,6 +4,7 @@ import random
 import logging
 from .models import Coin
 import pandas as pd
+from .forms import RandomGames
 
 
 MIN_NUM = 0
@@ -34,7 +35,7 @@ def coin(request, n=None):
         result_lst.append(result)
         coin_new = Coin(side=result)
         coin_new.save()
-    return render(request, 'randomapp/index.html', {'result':result_lst})
+    return render(request, 'randomapp/index.html', {'result': result_lst})
 
 
 @my_logger
@@ -54,12 +55,12 @@ def coin_pd(request, n=None):
 
 @my_logger
 def dice(request, n=1):
-    return HttpResponse(f' На кубике выпала цифра {random.randint(1, 6)}')
-    result = []
+    # return HttpResponse(f' На кубике выпала цифра {random.randint(1, 6)}')
+    result_lst = []
     for i in range(n):
         result = random.randint(1, 6)
-        result.append({'Попытка': i + 1, 'результат': result})
-    df = pd.DataFrame(result).to_html()
+        result_lst.append({'Попытка': i + 1, 'результат': result})
+    df = pd.DataFrame(result_lst).to_html()
     return render(request, 'randomapp/index.html', {'result': df})
 
 
@@ -80,3 +81,21 @@ def random_num(request):
 
 def statistic(request, n):
     return JsonResponse(Coin.get_last_n_flip(n), json_dumps_params={'ensure_ascii': False})
+
+
+def random_games(request):
+    if request.method == 'POST':
+        form = RandomGames(request.POST)
+        if form.is_valid():
+            game = form.cleaned_data['game']
+            count = form.cleaned_data['count']
+            if game == 'Coin':
+                return coin(request, count)
+            elif game == 'Dice':
+                return dice(request, count)
+            else:
+                return random_num(request)
+    else:
+        form = RandomGames()
+    return render(request, 'randomapp/random_games.html', {'form': form})
+

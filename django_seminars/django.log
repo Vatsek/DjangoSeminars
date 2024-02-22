@@ -1330,3 +1330,520 @@ INFO 2024-02-17 09:17:29,950 "GET /posts/post/2/ HTTP/1.1" 200 19792
 INFO 2024-02-17 09:17:31,380 "GET /posts/post/2/ HTTP/1.1" 200 19792
 INFO 2024-02-17 09:18:15,004 "GET /posts/post/2/ HTTP/1.1" 200 19720
 INFO 2024-02-17 09:18:17,208 "GET /posts/post/2/ HTTP/1.1" 200 19720
+INFO 2024-02-18 15:13:46,381 Watching for file changes with StatReloader
+INFO 2024-02-18 15:14:06,060 "GET /posts/post/2/ HTTP/1.1" 200 19720
+INFO 2024-02-18 15:50:37,444 Watching for file changes with StatReloader
+INFO 2024-02-18 15:50:59,101 "GET /posts/1/ HTTP/1.1" 200 654
+INFO 2024-02-19 19:29:33,937 Watching for file changes with StatReloader
+WARNING 2024-02-19 19:29:43,511 Not Found: /games/random_games
+WARNING 2024-02-19 19:29:43,511 "GET /games/random_games HTTP/1.1" 404 2799
+ERROR 2024-02-19 19:29:51,589 Internal Server Error: /random/games/random_games
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 96, in random_games
+    return render(request, 'myapp4/random_games.html', {'form': form})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/random_games.html
+ERROR 2024-02-19 19:29:51,592 "GET /random/games/random_games HTTP/1.1" 500 74157
+INFO 2024-02-19 19:30:24,371 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-19 19:30:25,686 Watching for file changes with StatReloader
+INFO 2024-02-19 19:30:27,083 "GET /random/games/random_games HTTP/1.1" 301 0
+ERROR 2024-02-19 19:30:27,141 Internal Server Error: /random/games/random_games/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 96, in random_games
+    return render(request, 'myapp4/random_games.html', {'form': form})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/random_games.html
+ERROR 2024-02-19 19:30:27,144 "GET /random/games/random_games/ HTTP/1.1" 500 74169
+ERROR 2024-02-19 19:31:55,743 Internal Server Error: /random/games/random_games/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 96, in random_games
+    return render(request, 'myapp4/random_games.html', {'form': form})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/random_games.html
+ERROR 2024-02-19 19:31:55,744 "GET /random/games/random_games/ HTTP/1.1" 500 74169
+WARNING 2024-02-19 19:31:59,644 Not Found: /random/
+WARNING 2024-02-19 19:31:59,644 "GET /random/ HTTP/1.1" 404 4140
+ERROR 2024-02-19 19:32:10,108 Internal Server Error: /random/games/random_games/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 96, in random_games
+    return render(request, 'myapp4/random_games.html', {'form': form})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/random_games.html
+ERROR 2024-02-19 19:32:10,109 "GET /random/games/random_games/ HTTP/1.1" 500 74169
+INFO 2024-02-19 19:33:09,717 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/urls.py changed, reloading.
+INFO 2024-02-19 19:33:10,709 Watching for file changes with StatReloader
+ERROR 2024-02-19 19:33:11,869 Internal Server Error: /random/games/random_games/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 96, in random_games
+    return render(request, 'myapp4/random_games.html', {'form': form})
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/random_games.html
+ERROR 2024-02-19 19:33:11,871 "GET /random/games/random_games/ HTTP/1.1" 500 74169
+INFO 2024-02-19 19:33:46,397 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:33:48,167 Watching for file changes with StatReloader
+INFO 2024-02-19 19:33:48,993 "GET /random/games/random_games/ HTTP/1.1" 200 957
+INFO 2024-02-19 19:33:57,607 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:34:09,980 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:36:48,706 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:37:13,745 "POST /random/games/random_games/ HTTP/1.1" 200 986
+INFO 2024-02-19 19:37:40,534 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:38:25,586 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/forms.py changed, reloading.
+INFO 2024-02-19 19:38:26,459 Watching for file changes with StatReloader
+INFO 2024-02-19 19:38:30,098 "POST /random/games/random_games/ HTTP/1.1" 200 1087
+INFO 2024-02-19 19:38:38,277 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:38:39,976 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:39:25,256 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:39:26,691 Watching for file changes with StatReloader
+INFO 2024-02-19 19:39:33,530 "GET /random/games/random_games/ HTTP/1.1" 200 957
+INFO 2024-02-19 19:39:37,864 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:39:40,065 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:39:42,102 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:39:44,693 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:39:47,345 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:40:14,143 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:40:15,284 Watching for file changes with StatReloader
+INFO 2024-02-19 19:40:16,740 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:44:16,589 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:44:17,818 Watching for file changes with StatReloader
+INFO 2024-02-19 19:44:21,783 Watching for file changes with StatReloader
+INFO 2024-02-19 19:44:32,850 "POST /random/games/random_games/ HTTP/1.1" 200 1087
+INFO 2024-02-19 19:46:05,314 Watching for file changes with StatReloader
+INFO 2024-02-19 19:46:11,001 "GET /random/games/random_games/ HTTP/1.1" 200 957
+INFO 2024-02-19 19:46:15,508 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:46:36,310 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:46:37,269 Watching for file changes with StatReloader
+INFO 2024-02-19 19:46:41,769 "GET /random/games/random_games/ HTTP/1.1" 200 957
+INFO 2024-02-19 19:46:44,075 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:47:06,031 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:47:06,912 Watching for file changes with StatReloader
+INFO 2024-02-19 19:47:08,466 "POST /random/games/random_games/ HTTP/1.1" 200 976
+INFO 2024-02-19 19:47:31,825 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:47:32,730 Watching for file changes with StatReloader
+INFO 2024-02-19 19:47:35,599 Была вызвана функция coin
+INFO 2024-02-19 19:47:35,600 "POST /random/games/random_games/ HTTP/1.1" 200 151
+INFO 2024-02-19 19:47:40,409 Была вызвана функция coin
+INFO 2024-02-19 19:47:40,410 "POST /random/games/random_games/ HTTP/1.1" 200 203
+INFO 2024-02-19 19:49:33,923 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/forms.py changed, reloading.
+INFO 2024-02-19 19:49:35,018 Watching for file changes with StatReloader
+INFO 2024-02-19 19:49:41,094 Была вызвана функция coin
+INFO 2024-02-19 19:49:41,094 "POST /random/games/random_games/ HTTP/1.1" 200 155
+INFO 2024-02-19 19:49:46,272 "GET /random/games/random_games/ HTTP/1.1" 200 1014
+INFO 2024-02-19 19:49:51,382 Была вызвана функция coin
+INFO 2024-02-19 19:49:51,384 "POST /random/games/random_games/ HTTP/1.1" 200 139
+INFO 2024-02-19 19:50:13,114 "GET /random/games/random_games/ HTTP/1.1" 200 916
+INFO 2024-02-19 19:50:20,247 "GET /random/games/random_games/ HTTP/1.1" 200 927
+INFO 2024-02-19 19:51:28,784 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:51:30,356 Watching for file changes with StatReloader
+INFO 2024-02-19 19:52:12,664 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:52:14,237 Watching for file changes with StatReloader
+INFO 2024-02-19 19:53:31,833 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:53:33,465 Watching for file changes with StatReloader
+INFO 2024-02-19 19:54:19,336 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:54:20,119 Watching for file changes with StatReloader
+INFO 2024-02-19 19:54:23,822 "GET /random/games/random_games/ HTTP/1.1" 200 927
+INFO 2024-02-19 19:54:27,642 Была вызвана функция coin
+INFO 2024-02-19 19:54:27,643 "POST /random/games/random_games/ HTTP/1.1" 200 153
+INFO 2024-02-19 19:54:34,427 Была вызвана функция dice
+INFO 2024-02-19 19:54:34,428 "POST /random/games/random_games/ HTTP/1.1" 200 44
+INFO 2024-02-19 19:56:07,873 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:56:08,806 Watching for file changes with StatReloader
+ERROR 2024-02-19 19:56:15,086 Internal Server Error: /random/games/random_games/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 95, in random_games
+    return dice(request, count)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 18, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py", line 62, in dice
+    result.append({'Попытка': i + 1, 'результат': result})
+AttributeError: 'int' object has no attribute 'append'
+ERROR 2024-02-19 19:56:15,088 "POST /random/games/random_games/ HTTP/1.1" 500 68570
+INFO 2024-02-19 19:57:08,512 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/views.py changed, reloading.
+INFO 2024-02-19 19:57:09,536 Watching for file changes with StatReloader
+INFO 2024-02-19 19:57:16,198 Была вызвана функция dice
+INFO 2024-02-19 19:57:16,199 "POST /random/games/random_games/ HTTP/1.1" 200 480
+INFO 2024-02-19 19:57:26,405 Была вызвана функция dice
+INFO 2024-02-19 19:57:26,405 "POST /random/games/random_games/ HTTP/1.1" 200 1041
+INFO 2024-02-19 19:57:48,013 Была вызвана функция random_num
+INFO 2024-02-19 19:57:48,014 "POST /random/games/random_games/ HTTP/1.1" 200 52
+INFO 2024-02-19 20:15:27,399 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-19 20:15:28,573 Watching for file changes with StatReloader
+INFO 2024-02-19 20:16:34,671 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-19 20:16:36,083 Watching for file changes with StatReloader
+INFO 2024-02-19 20:20:19,096 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:20:20,599 Watching for file changes with StatReloader
+INFO 2024-02-19 20:21:07,713 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:21:08,581 Watching for file changes with StatReloader
+INFO 2024-02-19 20:21:31,229 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:21:32,096 Watching for file changes with StatReloader
+INFO 2024-02-19 20:21:36,049 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:21:37,027 Watching for file changes with StatReloader
+INFO 2024-02-19 20:22:37,695 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:22:39,015 Watching for file changes with StatReloader
+INFO 2024-02-19 20:24:10,122 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:24:11,448 Watching for file changes with StatReloader
+INFO 2024-02-19 20:24:25,031 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:24:26,227 Watching for file changes with StatReloader
+INFO 2024-02-19 20:24:45,310 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:24:46,274 Watching for file changes with StatReloader
+INFO 2024-02-19 20:25:50,438 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:25:51,369 Watching for file changes with StatReloader
+INFO 2024-02-19 20:27:02,520 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:27:03,732 Watching for file changes with StatReloader
+INFO 2024-02-19 20:30:19,436 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-19 20:30:20,652 Watching for file changes with StatReloader
+INFO 2024-02-19 20:30:26,489 "GET /author/author_form HTTP/1.1" 301 0
+ERROR 2024-02-19 20:30:26,623 Internal Server Error: /author/author_form/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_post() missing 1 required positional argument: 'post_id'
+ERROR 2024-02-19 20:30:26,624 "GET /author/author_form/ HTTP/1.1" 500 55869
+INFO 2024-02-19 20:32:51,156 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-19 20:32:52,534 Watching for file changes with StatReloader
+INFO 2024-02-19 20:32:57,220 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:33:44,691 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:33:45,478 Watching for file changes with StatReloader
+INFO 2024-02-19 20:33:46,548 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:38:33,139 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:38:34,028 Watching for file changes with StatReloader
+INFO 2024-02-19 20:38:37,131 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:38:44,511 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:38:45,261 Watching for file changes with StatReloader
+INFO 2024-02-19 20:38:50,551 Watching for file changes with StatReloader
+INFO 2024-02-19 20:38:53,829 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:38:54,636 "GET /author/author_form/ HTTP/1.1" 200 387
+ERROR 2024-02-19 20:38:55,963 Internal Server Error: /author/author_form/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 25, in author_form
+    form.save()
+AttributeError: 'AuthorForm' object has no attribute 'save'
+ERROR 2024-02-19 20:38:55,964 "POST /author/author_form/ HTTP/1.1" 500 59941
+INFO 2024-02-19 20:39:08,363 "GET /author/author_form/ HTTP/1.1" 200 387
+WARNING 2024-02-19 20:39:08,723 Not Found: /favicon.ico
+WARNING 2024-02-19 20:39:08,724 "GET /favicon.ico HTTP/1.1" 404 2964
+INFO 2024-02-19 20:40:11,032 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-19 20:40:13,154 Watching for file changes with StatReloader
+INFO 2024-02-19 20:40:14,177 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:41:15,739 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-19 20:41:17,355 Watching for file changes with StatReloader
+INFO 2024-02-19 20:41:18,664 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:41:19,612 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:41:24,614 "GET /author/author_form/ HTTP/1.1" 200 387
+ERROR 2024-02-19 20:41:27,915 Internal Server Error: /author/author_form/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 25, in author_form
+    form.save()
+AttributeError: 'AuthorForm' object has no attribute 'save'
+ERROR 2024-02-19 20:41:27,915 "POST /author/author_form/ HTTP/1.1" 500 60074
+INFO 2024-02-19 20:41:58,017 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:41:59,351 Watching for file changes with StatReloader
+INFO 2024-02-19 20:42:02,025 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:42:03,641 "POST /author/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-19 20:42:03,657 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:42:04,528 "POST /author/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-19 20:42:04,540 "GET /author/author_form/ HTTP/1.1" 200 387
+INFO 2024-02-19 20:43:31,171 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:43:32,880 Watching for file changes with StatReloader
+INFO 2024-02-19 20:44:18,835 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:44:19,616 Watching for file changes with StatReloader
+INFO 2024-02-19 20:44:23,011 "GET /author/author_form/ HTTP/1.1" 200 1152
+INFO 2024-02-19 20:46:44,403 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-19 20:46:45,392 Watching for file changes with StatReloader
+INFO 2024-02-19 20:46:54,630 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-19 20:46:55,702 Watching for file changes with StatReloader
+INFO 2024-02-19 20:47:39,978 "POST /author/author_form/ HTTP/1.1" 200 1339
+INFO 2024-02-19 20:47:52,680 "POST /author/author_form/ HTTP/1.1" 200 1339
+ERROR 2024-02-19 20:49:08,949 Internal Server Error: /author/author_form/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 25, in author_form
+    form.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/forms/models.py", line 552, in save
+    self.instance.save()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py", line 14, in save
+    super().save(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/backends/base/operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 97, in inner
+    with self:
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2024-02-19 20:49:09,765 "POST /author/author_form/ HTTP/1.1" 500 126562
+INFO 2024-02-19 20:49:24,373 "POST /author/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-19 20:49:24,405 "GET /author/author_form/ HTTP/1.1" 200 1152
+INFO 2024-02-19 20:55:22,284 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:55:23,259 Watching for file changes with StatReloader
+INFO 2024-02-19 20:56:24,461 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:56:25,198 Watching for file changes with StatReloader
+INFO 2024-02-19 20:56:28,884 "GET /author/author_form/ HTTP/1.1" 200 1188
+INFO 2024-02-19 20:57:23,870 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-19 20:57:24,661 Watching for file changes with StatReloader
+INFO 2024-02-20 11:18:26,660 "GET / HTTP/1.1" 200 12
+INFO 2024-02-20 11:18:51,481 "GET / HTTP/1.1" 200 12
+INFO 2024-02-20 11:18:52,228 "GET /author/author_form/ HTTP/1.1" 200 1188
+INFO 2024-02-20 11:44:56,639 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:44:58,525 Watching for file changes with StatReloader
+INFO 2024-02-20 11:49:02,759 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:49:03,935 Watching for file changes with StatReloader
+INFO 2024-02-20 11:49:23,104 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:49:25,068 Watching for file changes with StatReloader
+INFO 2024-02-20 11:50:02,648 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:50:03,773 Watching for file changes with StatReloader
+INFO 2024-02-20 11:50:11,279 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:50:12,152 Watching for file changes with StatReloader
+INFO 2024-02-20 11:50:23,348 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:50:24,420 Watching for file changes with StatReloader
+INFO 2024-02-20 11:51:51,667 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:51:52,620 Watching for file changes with StatReloader
+INFO 2024-02-20 11:52:06,899 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:52:07,676 Watching for file changes with StatReloader
+INFO 2024-02-20 11:52:21,901 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:52:22,602 Watching for file changes with StatReloader
+INFO 2024-02-20 11:52:39,703 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:52:40,382 Watching for file changes with StatReloader
+INFO 2024-02-20 11:53:46,713 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:53:47,682 Watching for file changes with StatReloader
+INFO 2024-02-20 11:55:28,417 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:55:29,585 Watching for file changes with StatReloader
+INFO 2024-02-20 11:56:04,134 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:56:04,931 Watching for file changes with StatReloader
+INFO 2024-02-20 11:56:12,151 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:56:13,203 Watching for file changes with StatReloader
+INFO 2024-02-20 11:56:42,453 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 11:56:43,596 Watching for file changes with StatReloader
+INFO 2024-02-20 12:02:31,696 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 12:02:33,245 Watching for file changes with StatReloader
+INFO 2024-02-20 12:31:15,298 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 12:31:16,242 Watching for file changes with StatReloader
+INFO 2024-02-20 12:32:03,958 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 12:32:05,310 Watching for file changes with StatReloader
+INFO 2024-02-20 12:34:54,363 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 12:34:55,158 Watching for file changes with StatReloader
+INFO 2024-02-20 12:53:24,022 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 12:53:24,907 Watching for file changes with StatReloader
+INFO 2024-02-20 12:55:03,352 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 12:55:04,652 Watching for file changes with StatReloader
+INFO 2024-02-20 12:55:09,302 Watching for file changes with StatReloader
+INFO 2024-02-20 12:56:40,096 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-20 12:56:41,225 Watching for file changes with StatReloader
+INFO 2024-02-20 12:57:00,970 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/urls.py changed, reloading.
+INFO 2024-02-20 12:57:02,523 Watching for file changes with StatReloader
+INFO 2024-02-20 13:02:27,034 "GET / HTTP/1.1" 200 12
+INFO 2024-02-20 13:02:31,295 "GET / HTTP/1.1" 200 12
+INFO 2024-02-20 13:02:33,511 "GET / HTTP/1.1" 200 12
+INFO 2024-02-20 13:02:34,898 "GET /post HTTP/1.1" 301 0
+INFO 2024-02-20 13:02:35,020 "GET /post/ HTTP/1.1" 200 1973
+INFO 2024-02-20 13:11:19,298 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-20 13:11:20,879 Watching for file changes with StatReloader
+INFO 2024-02-20 13:11:22,718 "GET /post/ HTTP/1.1" 200 1805
+INFO 2024-02-20 13:11:55,627 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 13:11:56,575 Watching for file changes with StatReloader
+INFO 2024-02-20 13:11:58,288 "GET /post/ HTTP/1.1" 200 1641
+ERROR 2024-02-20 13:35:18,071 Internal Server Error: /post/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 42, in post_form
+    views_count=data['views_count'],
+KeyError: 'views_count'
+ERROR 2024-02-20 13:35:18,073 "POST /post/ HTTP/1.1" 500 61309
+INFO 2024-02-20 13:35:38,979 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 13:35:39,787 Watching for file changes with StatReloader
+INFO 2024-02-20 13:35:48,357 Watching for file changes with StatReloader
+INFO 2024-02-20 13:35:56,616 "POST /post/ HTTP/1.1" 302 0
+INFO 2024-02-20 13:35:56,711 "GET /post/ HTTP/1.1" 200 1641
+INFO 2024-02-20 13:47:07,474 "GET /post/ HTTP/1.1" 200 1641
+INFO 2024-02-20 13:47:11,444 "GET /posts/post/2 HTTP/1.1" 301 0
+INFO 2024-02-20 13:47:11,487 "GET /posts/post/2/ HTTP/1.1" 200 19720
+INFO 2024-02-20 13:49:40,237 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 13:49:41,306 Watching for file changes with StatReloader
+INFO 2024-02-20 13:51:18,861 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 13:51:19,990 Watching for file changes with StatReloader
+INFO 2024-02-20 13:51:40,293 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/forms.py changed, reloading.
+INFO 2024-02-20 13:51:41,193 Watching for file changes with StatReloader
+INFO 2024-02-20 13:53:56,988 "GET /posts/post/2/ HTTP/1.1" 200 19510
+INFO 2024-02-20 14:00:27,448 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:00:28,615 Watching for file changes with StatReloader
+INFO 2024-02-20 14:01:06,431 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:01:07,661 Watching for file changes with StatReloader
+INFO 2024-02-20 14:02:33,676 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:02:34,791 Watching for file changes with StatReloader
+INFO 2024-02-20 14:03:56,356 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:03:57,138 Watching for file changes with StatReloader
+INFO 2024-02-20 14:06:04,432 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/models.py changed, reloading.
+INFO 2024-02-20 14:06:05,889 Watching for file changes with StatReloader
+INFO 2024-02-20 14:06:48,305 Watching for file changes with StatReloader
+INFO 2024-02-20 14:08:03,397 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:08:04,566 Watching for file changes with StatReloader
+INFO 2024-02-20 14:08:17,309 "GET /posts/post/2/ HTTP/1.1" 200 19510
+INFO 2024-02-20 14:09:14,880 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:09:15,708 Watching for file changes with StatReloader
+INFO 2024-02-20 14:09:30,991 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:09:32,003 Watching for file changes with StatReloader
+INFO 2024-02-20 14:09:37,196 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:09:38,594 Watching for file changes with StatReloader
+INFO 2024-02-20 14:11:12,818 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:11:14,032 Watching for file changes with StatReloader
+INFO 2024-02-20 14:12:03,301 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:12:04,266 Watching for file changes with StatReloader
+INFO 2024-02-20 14:12:26,746 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:12:27,685 Watching for file changes with StatReloader
+INFO 2024-02-20 14:13:02,522 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:13:03,562 Watching for file changes with StatReloader
+INFO 2024-02-20 14:13:06,232 "GET /posts/post/2/ HTTP/1.1" 200 20217
+INFO 2024-02-20 14:14:03,196 "POST /posts/post/2/ HTTP/1.1" 200 21018
+INFO 2024-02-20 14:17:41,838 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:17:42,654 Watching for file changes with StatReloader
+INFO 2024-02-20 14:17:49,531 "POST /posts/post/2/ HTTP/1.1" 200 20392
+INFO 2024-02-20 14:18:10,871 "POST /posts/post/2/ HTTP/1.1" 200 20553
+INFO 2024-02-20 14:18:13,493 "POST /posts/post/2/ HTTP/1.1" 200 20714
+INFO 2024-02-20 14:19:48,186 "POST /posts/post/2/ HTTP/1.1" 200 20879
+INFO 2024-02-20 14:20:25,226 "POST /posts/post/2/ HTTP/1.1" 200 21038
+INFO 2024-02-20 14:21:21,811 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:21:22,780 Watching for file changes with StatReloader
+INFO 2024-02-20 14:21:52,191 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:21:53,339 Watching for file changes with StatReloader
+ERROR 2024-02-20 14:21:54,760 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 25, in author_post
+    redirect('author_post')
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_post' with no arguments not found. 1 pattern(s) tried: ['posts/post/(?P<post_id>[0-9]+)/\\Z']
+ERROR 2024-02-20 14:21:54,762 "POST /posts/post/2/ HTTP/1.1" 500 81944
+INFO 2024-02-20 14:22:19,064 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:22:20,950 Watching for file changes with StatReloader
+INFO 2024-02-20 14:22:22,639 "GET /posts/post/2/ HTTP/1.1" 200 21185
+INFO 2024-02-20 14:22:39,240 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:22:40,411 Watching for file changes with StatReloader
+INFO 2024-02-20 14:22:41,910 "GET /posts/post/2/ HTTP/1.1" 200 21185
+INFO 2024-02-20 14:22:43,407 "GET /posts/post/2/ HTTP/1.1" 200 21185
+ERROR 2024-02-20 14:22:48,549 Internal Server Error: /posts/post/2/
+Traceback (most recent call last):
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py", line 25, in author_post
+    redirect('author_post')
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/pavelvatsek/PycharmProjects/DjangoSeminars/.venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_post' with no arguments not found. 1 pattern(s) tried: ['posts/post/(?P<post_id>[0-9]+)/\\Z']
+ERROR 2024-02-20 14:22:48,550 "POST /posts/post/2/ HTTP/1.1" 500 81969
+INFO 2024-02-20 14:25:02,181 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:25:03,571 Watching for file changes with StatReloader
+INFO 2024-02-20 14:25:05,142 "POST /posts/post/2/ HTTP/1.1" 200 21494
+INFO 2024-02-20 14:25:06,868 "POST /posts/post/2/ HTTP/1.1" 200 21646
+INFO 2024-02-20 14:25:13,759 "POST /posts/post/2/ HTTP/1.1" 200 21790
+INFO 2024-02-20 14:25:21,312 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/views.py changed, reloading.
+INFO 2024-02-20 14:25:22,153 Watching for file changes with StatReloader
+INFO 2024-02-20 14:25:24,257 "POST /posts/post/2/ HTTP/1.1" 302 0
+INFO 2024-02-20 14:25:25,960 "GET /posts/post/2/ HTTP/1.1" 200 21937
+INFO 2024-02-20 14:25:30,396 "POST /posts/post/2/ HTTP/1.1" 302 0
+INFO 2024-02-20 14:25:30,445 "GET /posts/post/2/ HTTP/1.1" 200 22087
+INFO 2024-02-20 14:25:39,927 "POST /posts/post/2/ HTTP/1.1" 302 0
+INFO 2024-02-20 14:25:39,979 "GET /posts/post/2/ HTTP/1.1" 200 22242
