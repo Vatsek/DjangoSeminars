@@ -1847,3 +1847,280 @@ INFO 2024-02-20 14:25:30,396 "POST /posts/post/2/ HTTP/1.1" 302 0
 INFO 2024-02-20 14:25:30,445 "GET /posts/post/2/ HTTP/1.1" 200 22087
 INFO 2024-02-20 14:25:39,927 "POST /posts/post/2/ HTTP/1.1" 302 0
 INFO 2024-02-20 14:25:39,979 "GET /posts/post/2/ HTTP/1.1" 200 22242
+INFO 2024-02-22 19:10:21,772 Watching for file changes with StatReloader
+INFO 2024-02-22 19:10:24,052 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:10:24,252 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-02-22 19:10:31,962 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:10:32,040 "GET /admin/ HTTP/1.1" 200 5533
+INFO 2024-02-22 19:11:00,876 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/django_seminars/settings.py changed, reloading.
+INFO 2024-02-22 19:11:03,882 Watching for file changes with StatReloader
+INFO 2024-02-22 19:11:05,393 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-02-22 19:12:05,649 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 19:12:07,720 Watching for file changes with StatReloader
+INFO 2024-02-22 19:14:24,154 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 19:14:26,095 Watching for file changes with StatReloader
+INFO 2024-02-22 19:14:28,070 "GET /admin/ HTTP/1.1" 200 7481
+INFO 2024-02-22 19:14:35,359 Watching for file changes with StatReloader
+INFO 2024-02-22 19:14:38,314 "GET /admin/ HTTP/1.1" 200 7481
+INFO 2024-02-22 19:16:00,964 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/admin.py changed, reloading.
+INFO 2024-02-22 19:16:02,488 Watching for file changes with StatReloader
+INFO 2024-02-22 19:16:20,172 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/randomapp/admin.py changed, reloading.
+INFO 2024-02-22 19:16:21,270 Watching for file changes with StatReloader
+INFO 2024-02-22 19:16:26,882 "GET /admin/ HTTP/1.1" 200 8174
+INFO 2024-02-22 19:20:05,407 "GET /admin/auth/group/ HTTP/1.1" 200 9459
+INFO 2024-02-22 19:20:05,459 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:20:09,024 "GET /admin/auth/group/add/ HTTP/1.1" 200 14777
+INFO 2024-02-22 19:20:09,091 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:20:09,097 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-02-22 19:20:09,279 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-02-22 19:20:09,285 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-02-22 19:23:16,130 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:23:16,168 "GET /admin/auth/group/ HTTP/1.1" 200 11200
+INFO 2024-02-22 19:23:16,204 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:23:19,228 "GET /admin/auth/group/add/ HTTP/1.1" 200 14777
+INFO 2024-02-22 19:23:19,245 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:25:41,814 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:25:41,866 "GET /admin/auth/group/ HTTP/1.1" 200 11534
+INFO 2024-02-22 19:25:41,897 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:25:50,843 "GET /admin/auth/group/add/ HTTP/1.1" 200 14777
+INFO 2024-02-22 19:25:50,866 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:27:34,300 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:27:34,335 "GET /admin/auth/group/add/ HTTP/1.1" 200 15070
+INFO 2024-02-22 19:27:34,392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:27:48,264 "GET /admin/auth/group/ HTTP/1.1" 200 11653
+INFO 2024-02-22 19:27:48,303 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:27:54,409 "GET /admin/auth/group/add/ HTTP/1.1" 200 14777
+INFO 2024-02-22 19:27:54,435 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:28:08,922 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:28:08,963 "GET /admin/auth/group/ HTTP/1.1" 200 12217
+INFO 2024-02-22 19:28:08,995 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:28:24,555 "GET /admin/auth/group/add/ HTTP/1.1" 200 14777
+INFO 2024-02-22 19:28:24,574 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:29:02,912 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:29:02,951 "GET /admin/auth/group/add/ HTTP/1.1" 200 15069
+INFO 2024-02-22 19:29:03,005 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:29:26,984 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:29:27,017 "GET /admin/auth/group/ HTTP/1.1" 200 12893
+INFO 2024-02-22 19:29:27,052 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:29:34,792 "GET /admin/auth/user/ HTTP/1.1" 200 14239
+INFO 2024-02-22 19:29:34,856 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:29:39,448 "GET /admin/auth/user/add/ HTTP/1.1" 200 12914
+INFO 2024-02-22 19:29:39,487 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:33:09,138 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/django_seminars/settings.py changed, reloading.
+INFO 2024-02-22 19:33:10,028 Watching for file changes with StatReloader
+INFO 2024-02-22 19:33:28,028 "POST /admin/auth/user/add/ HTTP/1.1" 200 13012
+INFO 2024-02-22 19:33:28,124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:34:13,573 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/django_seminars/settings.py changed, reloading.
+INFO 2024-02-22 19:34:15,024 Watching for file changes with StatReloader
+INFO 2024-02-22 19:34:21,577 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:34:21,842 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25915
+INFO 2024-02-22 19:34:21,969 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:34:22,367 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-02-22 19:34:22,368 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-02-22 19:35:15,092 "GET /admin/auth/group/ HTTP/1.1" 200 12673
+INFO 2024-02-22 19:35:15,119 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:22,072 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 15062
+INFO 2024-02-22 19:35:22,112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:35,257 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:35:35,288 "GET /admin/auth/group/ HTTP/1.1" 200 12877
+INFO 2024-02-22 19:35:35,320 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:36,462 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 15038
+INFO 2024-02-22 19:35:36,495 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:43,405 "GET /admin/auth/group/ HTTP/1.1" 200 12661
+INFO 2024-02-22 19:35:43,430 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:47,311 "GET /admin/auth/group/4/change/ HTTP/1.1" 200 15053
+INFO 2024-02-22 19:35:47,349 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:51,948 "POST /admin/auth/group/4/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:35:51,981 "GET /admin/auth/group/ HTTP/1.1" 200 12868
+INFO 2024-02-22 19:35:52,016 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:57,838 "GET /admin/auth/user/ HTTP/1.1" 200 14731
+INFO 2024-02-22 19:35:57,880 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:35:59,254 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25606
+INFO 2024-02-22 19:35:59,283 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:36:43,948 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:36:43,991 "GET /admin/auth/user/ HTTP/1.1" 200 14953
+INFO 2024-02-22 19:36:44,045 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:36:46,852 "GET /admin/auth/user/add/ HTTP/1.1" 200 12615
+INFO 2024-02-22 19:36:46,886 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:36:55,554 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:36:55,721 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 25904
+INFO 2024-02-22 19:36:55,793 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:37:49,685 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:37:49,712 "GET /admin/auth/user/add/ HTTP/1.1" 200 12908
+INFO 2024-02-22 19:37:49,818 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:37:56,903 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:37:56,965 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 25904
+INFO 2024-02-22 19:37:57,009 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:41:44,104 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:41:44,322 "GET /admin/auth/user/ HTTP/1.1" 200 15959
+INFO 2024-02-22 19:41:44,405 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:41:47,723 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-02-22 19:41:51,028 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:41:51,054 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-02-22 19:41:58,150 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:41:58,189 "GET /admin/ HTTP/1.1" 200 6722
+INFO 2024-02-22 19:42:06,249 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/django_seminars/settings.py changed, reloading.
+INFO 2024-02-22 19:42:08,338 Watching for file changes with StatReloader
+INFO 2024-02-22 19:42:15,589 "GET /admin/blog/author/ HTTP/1.1" 200 8917
+INFO 2024-02-22 19:42:21,241 "GET /admin/blog/comment/ HTTP/1.1" 200 18836
+INFO 2024-02-22 19:42:24,752 "GET /admin/blog/post/ HTTP/1.1" 200 9279
+INFO 2024-02-22 19:42:35,051 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-02-22 19:42:37,017 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:42:37,069 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-02-22 19:42:41,804 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-22 19:42:41,991 "GET /admin/ HTTP/1.1" 200 11879
+INFO 2024-02-22 19:50:17,749 "GET /admin/blog/author/ HTTP/1.1" 200 13719
+INFO 2024-02-22 19:50:17,787 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:50:22,575 "GET /admin/blog/author/ HTTP/1.1" 200 13719
+INFO 2024-02-22 19:50:22,591 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:50:26,850 "GET /admin/blog/comment/ HTTP/1.1" 200 46079
+INFO 2024-02-22 19:50:26,902 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:50:28,049 "GET /admin/blog/post/ HTTP/1.1" 200 14471
+INFO 2024-02-22 19:50:28,083 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:50:28,904 "GET /admin/blog/author/ HTTP/1.1" 200 13719
+INFO 2024-02-22 19:50:28,920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:57:00,685 "GET /admin/blog/author/ HTTP/1.1" 200 14199
+INFO 2024-02-22 19:57:00,701 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:59:20,756 "GET /admin/blog/comment/ HTTP/1.1" 200 46079
+INFO 2024-02-22 19:59:20,794 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:59:21,689 "GET /admin/blog/post/ HTTP/1.1" 200 14471
+INFO 2024-02-22 19:59:21,756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 19:59:24,880 "GET /admin/blog/author/ HTTP/1.1" 200 14199
+INFO 2024-02-22 19:59:24,918 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:00:15,975 "GET /admin/blog/author/ HTTP/1.1" 200 14199
+INFO 2024-02-22 20:00:16,003 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:02:28,750 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:02:31,829 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:00,055 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:03:01,026 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:10,085 "GET /admin/blog/author/ HTTP/1.1" 200 16216
+INFO 2024-02-22 20:03:10,137 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:14:26,618 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:14:30,475 Watching for file changes with StatReloader
+INFO 2024-02-22 20:14:40,082 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:14:41,151 Watching for file changes with StatReloader
+INFO 2024-02-22 20:14:44,400 "GET /admin/blog/author/ HTTP/1.1" 200 17203
+INFO 2024-02-22 20:14:44,437 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:16:25,875 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:16:28,476 Watching for file changes with StatReloader
+INFO 2024-02-22 20:18:02,193 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:18:03,368 Watching for file changes with StatReloader
+INFO 2024-02-22 20:18:14,488 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:18:15,194 Watching for file changes with StatReloader
+INFO 2024-02-22 20:18:21,485 "GET /admin/blog/author/ HTTP/1.1" 200 17203
+INFO 2024-02-22 20:18:21,515 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:18:24,283 "GET /admin/blog/post/ HTTP/1.1" 200 15271
+INFO 2024-02-22 20:18:24,340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:20:31,989 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:20:32,835 Watching for file changes with StatReloader
+INFO 2024-02-22 20:20:43,166 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:20:43,920 Watching for file changes with StatReloader
+INFO 2024-02-22 20:20:56,646 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:20:58,372 Watching for file changes with StatReloader
+INFO 2024-02-22 20:20:59,827 "GET /admin/blog/post/ HTTP/1.1" 200 17479
+INFO 2024-02-22 20:21:00,142 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:22:05,094 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:22:06,193 Watching for file changes with StatReloader
+INFO 2024-02-22 20:22:18,944 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:22:19,829 Watching for file changes with StatReloader
+INFO 2024-02-22 20:22:40,620 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:22:41,529 Watching for file changes with StatReloader
+INFO 2024-02-22 20:22:46,167 "GET /admin/blog/comment/ HTTP/1.1" 200 71120
+INFO 2024-02-22 20:22:46,217 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:24:20,627 "GET /admin/blog/post/ HTTP/1.1" 200 17479
+INFO 2024-02-22 20:24:20,714 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:24:21,827 "GET /admin/blog/comment/ HTTP/1.1" 200 71120
+INFO 2024-02-22 20:24:21,866 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:24:56,554 "GET /admin/blog/comment/120/change/ HTTP/1.1" 200 15046
+INFO 2024-02-22 20:24:56,598 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:29:26,974 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:29:28,196 Watching for file changes with StatReloader
+INFO 2024-02-22 20:29:46,166 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:29:47,415 Watching for file changes with StatReloader
+INFO 2024-02-22 20:29:51,058 "GET /admin/blog/comment/120/change/ HTTP/1.1" 200 15046
+INFO 2024-02-22 20:29:51,666 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:30:29,929 "GET /admin/blog/comment/120/change/ HTTP/1.1" 200 15046
+INFO 2024-02-22 20:30:30,005 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:30:34,503 "GET /admin/blog/author/ HTTP/1.1" 200 17203
+INFO 2024-02-22 20:30:34,540 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:30:35,900 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 11717
+INFO 2024-02-22 20:30:35,945 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:30:41,861 "POST /admin/blog/author/11/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 20:30:41,909 "GET /admin/blog/author/ HTTP/1.1" 200 17425
+INFO 2024-02-22 20:30:41,954 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:30:44,016 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 11717
+INFO 2024-02-22 20:30:44,054 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:31:57,043 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:31:58,221 Watching for file changes with StatReloader
+INFO 2024-02-22 20:32:23,483 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:32:24,808 Watching for file changes with StatReloader
+INFO 2024-02-22 20:32:28,146 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13145
+INFO 2024-02-22 20:32:28,172 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:39:02,529 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:39:03,857 Watching for file changes with StatReloader
+INFO 2024-02-22 20:39:52,085 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:39:53,759 Watching for file changes with StatReloader
+INFO 2024-02-22 20:39:55,318 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13306
+INFO 2024-02-22 20:39:55,817 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:41:38,949 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:41:40,090 Watching for file changes with StatReloader
+INFO 2024-02-22 20:41:46,202 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:41:47,475 Watching for file changes with StatReloader
+INFO 2024-02-22 20:41:49,905 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13313
+INFO 2024-02-22 20:41:50,011 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:42:44,914 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:42:45,848 Watching for file changes with StatReloader
+INFO 2024-02-22 20:44:21,015 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:44:22,065 Watching for file changes with StatReloader
+INFO 2024-02-22 20:44:27,447 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13310
+INFO 2024-02-22 20:44:27,480 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:44:28,546 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13310
+INFO 2024-02-22 20:44:28,680 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:45:19,185 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:45:20,152 Watching for file changes with StatReloader
+INFO 2024-02-22 20:45:46,084 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:45:47,438 Watching for file changes with StatReloader
+INFO 2024-02-22 20:45:49,849 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13372
+INFO 2024-02-22 20:45:49,958 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:55:01,243 "GET /admin/blog/author/ HTTP/1.1" 200 17203
+INFO 2024-02-22 20:55:01,342 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:55:03,459 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13372
+INFO 2024-02-22 20:55:03,515 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:55:30,655 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:55:32,456 Watching for file changes with StatReloader
+INFO 2024-02-22 20:55:33,907 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 14045
+INFO 2024-02-22 20:55:33,963 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:55:38,892 "GET /admin/blog/author/ HTTP/1.1" 200 17203
+INFO 2024-02-22 20:55:38,929 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:56:03,818 /Users/pavelvatsek/PycharmProjects/DjangoSeminars/django_seminars/blog/admin.py changed, reloading.
+INFO 2024-02-22 20:56:04,695 Watching for file changes with StatReloader
+INFO 2024-02-22 20:56:07,170 "GET /admin/blog/author/ HTTP/1.1" 200 17973
+INFO 2024-02-22 20:56:07,192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:56:13,690 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13372
+INFO 2024-02-22 20:56:13,713 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:56:22,100 "POST /admin/blog/author/11/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 20:56:22,154 "GET /admin/blog/author/ HTTP/1.1" 200 18199
+INFO 2024-02-22 20:56:22,208 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:56:26,459 "GET /admin/blog/author/11/change/ HTTP/1.1" 200 13376
+INFO 2024-02-22 20:56:26,479 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-22 20:56:34,377 "POST /admin/blog/author/11/change/ HTTP/1.1" 302 0
+INFO 2024-02-22 20:56:34,428 "GET /admin/blog/author/ HTTP/1.1" 200 18195
+INFO 2024-02-22 20:56:34,470 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-23 10:10:13,407 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-02-23 10:25:10,270 "GET / HTTP/1.1" 200 12
+WARNING 2024-02-23 10:25:10,477 Not Found: /favicon.ico
+WARNING 2024-02-23 10:25:10,479 "GET /favicon.ico HTTP/1.1" 404 3134
+INFO 2024-02-23 13:22:32,187 Watching for file changes with StatReloader
+INFO 2024-02-23 13:22:38,940 "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2024-02-23 13:22:38,955 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-23 13:22:39,009 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-02-23 13:22:43,933 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-23 13:22:43,981 "GET /admin/ HTTP/1.1" 200 11901
+INFO 2024-02-23 13:22:50,179 "GET /admin/auth/group/ HTTP/1.1" 200 12651
+INFO 2024-02-23 13:22:50,203 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-23 13:22:54,729 "GET /admin/auth/group/5/change/ HTTP/1.1" 200 15110
+INFO 2024-02-23 13:22:54,773 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-23 13:22:58,243 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 15087
+INFO 2024-02-23 13:22:58,293 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-23 13:23:12,871 "GET /admin/ HTTP/1.1" 200 11901
+INFO 2024-02-23 13:23:15,023 "POST /admin/logout/ HTTP/1.1" 200 3817
